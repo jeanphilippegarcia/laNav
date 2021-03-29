@@ -18,6 +18,14 @@ get_header();
 	else :
 	?>
 	<h1>pas d'articles</h1>
-	<?php endif;
+	<?php endif; ?>
 
-	get_footer();
+	<?php wp_link_pages( array(
+    'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'lanav' ) . '</span>',
+    'after'       => '</div>',
+    'link_before' => '<span>',
+    'link_after'  => '</span>',
+    ) );
+	?>
+	<?php comment_form(); ?>
+	<?php get_footer(); ?>

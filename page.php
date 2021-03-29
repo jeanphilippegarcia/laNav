@@ -21,7 +21,7 @@
 	</div>
 
 	<!-- Add the pagination functions here. -->
-	<?= paginate_links(); ?>
+	<?php paginate_links(); ?>
 
 	<?php else : ?>
 	<h1>pas d'articles</h1>

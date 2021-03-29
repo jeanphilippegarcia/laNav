@@ -71,15 +71,15 @@ function custom_theme_features() {
 
 	// Add theme support for Custom Header
 	$header_args = array(
-		'width'			=> 1200,
-		'height'		=> 400,
-		'flex-width'		=> true,
-		'flex-height'		=> true,
-		'uploads'		=> true,
-		'random-default'	=> true,
-		'header-text'		=> true,
+		'width'					=> 1200,
+		'height'				=> 400,
+		'flex-width'			=> true,
+		'flex-height'			=> true,
+		'uploads'				=> true,
+		'random-default'		=> true,
+		'header-text'			=> true,
 		'default-text-color'	=> 'laNAV',
-		'wp-head-callback'	=> '',
+		'wp-head-callback'		=> '',
 		'admin-head-callback'	=> '',
 		'admin-preview-callback'=> '',
 	);

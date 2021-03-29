@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html <?php language_attributes(); ?> >
 
 <head>
 	<meta charset="UTF-8">
@@ -16,7 +16,7 @@
 	</script>
 </head>
 
-<body>
+<?php wp_body_open(); ?>
 	<header>
 		<!-- navbar jp -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">

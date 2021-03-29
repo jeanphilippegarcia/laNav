@@ -1,5 +1,5 @@
-	<!-- bs search -->
-	<form class="d-flex me-3" action="<?php echo esc_url(home_url('/')); ?>">
+	<!-- bs search / form role=“search” -->
+	<form role=“search” class="d-flex me-3" action="<?php echo esc_url(home_url('/')); ?>">
 		<input class="form-control form-control-sm rounded-0" name="s" type="search" placeholder="Rechercher" aria-label="Search" value="<?php get_search_query() ?>">
 		<button class="btn btn-sm btn-outline-dark rounded-0" type="submit">
 			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">

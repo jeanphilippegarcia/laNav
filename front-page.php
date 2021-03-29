@@ -9,7 +9,7 @@ get_header();
 	<div class="hero_image">
 		<!-- media en tete -->
 		<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
-			width="<?php echo get_custom_header()->width; ?>" alt="" />
+			width="<?php echo get_custom_header()->width; ?>" alt="hero image" />
 
 		<div class="hero_content">
 			<h1 class="txt_white shadowh1">

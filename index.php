@@ -21,6 +21,6 @@
 	</div>
 	<!-- card  group v2 end -->
 	<!-- Add the pagination functions here. -->
-	<?= paginate_links(); ?>
+	<?php paginate_links(); ?>
 
 	<?php get_footer(); ?>
